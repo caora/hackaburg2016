@@ -1,0 +1,15 @@
+<a href="#debates/{{debate.debate_id}}" class="container-fluid debate-list-item-main">
+    <div class="col-md-9 debate-info">
+        <h2>{{ debate.title }}</h2>
+        <div>
+        <span>{{ debate.commentNumber }} comments</span> | <span class="green">{{ debate.commentInfo.ups }} pro</span> | <span class="red">{{ debate.commentInfo.downs }} con</span>
+        </div>
+    </div>
+    <div class="col-md-2 col-md-offset-1 debate-progress">
+        <div class="progress-text">{{ getTimeLeft({ startTime: debate.initTimeStamp }) }}</div>
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: {{ getTimePercentage({ startTime: debate.initTimeStamp }) }}%">
+            </div>
+        </div>
+    </div>
+</a>

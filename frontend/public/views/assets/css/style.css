@@ -1,0 +1,231 @@
+#right {
+    color: #505050 !important;
+}
+
+.shadow {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.20);
+    border-color: #000000;
+}
+
+.navbar-btn {
+    padding: 6px 12px !important;
+    display: inline-block !important;
+    background-color: #D9534F !important;
+}
+
+.navbar-btn:hover {
+    background-color: #C9302C !important;
+}
+
+.left-inner-addon {
+    position: relative;
+}
+.left-inner-addon input {
+    padding-left: 30px;
+}
+.left-inner-addon i {
+    position: absolute;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+.right-inner-addon {
+    position: relative;
+}
+.right-inner-addon input {
+    padding-right: 30px;
+}
+.right-inner-addon i {
+    position: absolute;
+    right: 0px;
+    padding: 10px 12px;
+    pointer-events: none;
+}
+
+#running {
+   clear: right;
+}
+
+#headerLogo {
+    width: 97%;
+    margin-top: 15px;
+}
+
+#user-name {
+    float: right;
+    margin-bottom: 20px;
+    margin-right: 7px;
+}
+
+#user-pic {
+    float: right;
+    margin-bottom: 10px;
+    margin-right: 5px;
+    width: 50px;
+}
+
+#running {
+    margin-top: 50px;
+}
+
+.row, #main, #right, body, html {
+    height: 100%;
+}
+
+#left {
+    height: 100%;
+    background: #ababab;
+}
+
+#right {
+    padding: 0;
+    height: 100%;
+}
+
+#left h2 {
+    font-size: 20px;
+    color: #444;
+}
+
+#left h2.active {
+    color: #333;
+}
+
+.left-links a {
+    color: #333;
+}
+
+.new-debate-view {
+    margin-top: 50px;
+}
+
+#view h2 {
+    font-size: 20px;
+}
+
+#top {
+    margin: 0;
+    background-color: #efefef;
+}
+
+#page-header {
+    font-size: 24px;
+}
+
+.debate-list-item-main {
+    display: block;
+    color: #505050;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+/* colors for pro and con */
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.btn-green {
+    background-color: #75C7A4 !important;
+}
+
+.comment-title {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.comment {
+    border-radius: 17px;
+    -moz-border-radius: 17px;
+    -webkit-border-radius: 17px;
+    margin-top: 16px;
+}
+
+#comment-item {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+
+.comment:not(.pro-comment):not(.con-comment){
+    width: 100%;
+}
+
+.comment:not(.pro-comment):not(.con-comment) > #comment-item {
+    padding-left: 15px;
+    border-bottom: 1px solid #eee;
+}
+
+.comment:not(.pro-comment):not(.con-comment) > #comment-item > h3 {
+    font-size: 35px;
+}
+
+.pro-comment {
+    background-color: rgba(117, 199, 164, 0.6);
+    right: -30px;
+}
+
+.con-comment {
+    background-color: rgba(201, 48, 44, 0.23);
+    left: -30px;
+    padding-left: 0px;
+}
+
+.comment-panel {
+    display: table;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0px !important;
+}
+
+#comment-panel-head {
+    text-align: center;
+}
+
+.debate-progress {
+    margin-top: 16px;
+}
+
+.progress {
+    position: relative;
+    height: 22px !important;
+    margin-bottom: 0px !important;
+}
+
+.progress-bar {
+    background-color: #75C7A4 !important;
+}
+
+.progress-text {
+    color: #505050;
+    font-weight: bold;
+    text-align: center;
+}
+
+.scrollable-menu {
+    height: calc(100% - 66px);
+    overflow-x: hidden;
+}
+
+.scrollable-menu::-webkit-scrollbar {
+    -webkit-appearance: none;
+    width: 4px;
+}
+
+.scrollable-menu::-webkit-scrollbar-thumb {
+    border-radius: 3px;
+    background-color: lightgray;
+    -webkit-box-shadow: 0 0 1px rgba(255,255,255,.75);
+}
+
+.fade {
+   opacity: 1;
+   transition: opacity .25s ease-in-out;
+   -moz-transition: opacity .25s ease-in-out;
+   -webkit-transition: opacity .25s ease-in-out;
+}

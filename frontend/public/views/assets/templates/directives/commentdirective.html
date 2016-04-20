@@ -1,0 +1,20 @@
+<div class="row">
+    <div data-ng-class="{ 'hidden' : comment.status==='pro', 'col-lg-4 col-md-3 col-s-2 col-xs-1' : comment.status==='con' }"></div>
+    <div class="comment col-lg-8 col-md-9 col-s-10 col-xs-11" data-ng-class="{ 'pro-comment' : comment.status==='pro', 'con-comment' : comment.status==='con'}">
+		<div id="comment-item">
+		    
+		    <div data-ng-class="{'hidden' : comment.status !== 'pro' && comment.status!=='con' }">
+		        <h3 class="comment-title">{{comment.title}}</h3>
+		        <p>{{comment.commentText}}</p>
+		    </div>
+		    
+		    <div data-ng-class="{'hidden' : comment.status === 'pro' || comment.status==='con' }">
+		        <p>{{comment.selfText}}</p>
+		        <p><b>Pro: </b>{{comment.proText}}</p>
+		        <p><b>Con: </b>{{comment.conText}}</p>
+		    </div>
+		    <p>{{comment.author}}  <a>#{{comment.commentID}}</a></p>
+		</div>
+    </div>
+    <div data-ng-class="{ 'hidden' : comment.status==='con', 'col-lg-4 col-md-3 col-s-2 col-xs-1' : comment.status==='pro' }"></div>
+</div>

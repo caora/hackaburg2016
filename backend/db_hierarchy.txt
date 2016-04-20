@@ -1,0 +1,31 @@
+Collections:
+
+collection_name: debate_ID
+
++ author (str)
++ created_utc (float)
++ downs (int)
++ ups (int)
++ num_Comments (int)
++ title (str)
++ Selftext (str)
+----------------------
+
+collection_name: comments_debate_ID
++ author (str)
++ created_utc (float)
++ downs (int)
++ ups (int)
++ comment_ID (str)
+
+----------------------
+
+collection_name: user_ID
++ upped >> debate_ID (str) + comment_ID (str)
++ downed >> debate_ID (str) + comment_ID (str)
+
+----------------------
+
+
+TODO:
+

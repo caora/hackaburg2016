@@ -1,0 +1,55 @@
+<div comment-directive comment='comment' data-ng-repeat='comment in debatevm.comments'></div>
+
+<div data-ng-controller='newCommentController as newcommentvm'>
+    <div class="panel panel-default comment-panel">
+        <div id="comment-panel-head" class="panel-heading">
+            Comment
+        </div>
+        <div id="comment-panel-body" class="panel-body hidden">
+            <form class="form-horizontal new-debate-view" ng-submit="newcommentvm.submit()" class="row">
+                <div id="comment-form-left" class="col-sm-8">
+                    <div class="form-group">
+                        <label for="title" class="col-sm-3 control-label">Title</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="title" ng-model="newcommentvm.data.title" placeholder="Title">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="author" class="col-sm-3 control-label">Author</label>
+                        <div class="col-sm-9">
+                            <input type="text" class="form-control" id="author" ng-model="newcommentvm.data.author" placeholder="Anonymous">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="description" class="col-sm-3 control-label">Argument</label>
+                        <div class="col-sm-9">
+                            <textarea class="form-control" id="description" ng-model="newcommentvm.data.text" placeholder="Some text to describe your debate"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <div id="comment-form-right" class="col-sm-4">
+                    <div class="form-group">
+                        <div class="radio  col-sm-offset-2 col-sm-10">
+                            <label>
+                                <input type="radio" ng-model="newcommentvm.data.state" name="optionsRadios" id="optionsRadios1" value="pro" checked>
+                                I am arguing pro
+                            </label>
+                        </div>
+                        <div class="radio  col-sm-offset-2 col-sm-10">
+                            <label>
+                                <input type="radio" ng-model="newcommentvm.data.state" name="optionsRadios" id="optionsRadios2" value="con">
+                                I am arguing con
+                            </label>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default btn-green">Comment</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+    
+        </div>
+    </div>
+</div>
