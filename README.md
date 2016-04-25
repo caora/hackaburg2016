@@ -1,29 +1,21 @@
-# hackaburg2016
-# Bleak
-
-An elegant AJAX driven theme for [Ghost](http://github.com/tryghost/ghost/) by [Peter Amende](http://zutrinken.com/).
+# Hackaburg 2016 - Debattle
 
 ***
 
-_**Hint:** This theme works with AJAX, so it won’t work with multiple domains properly! Use redirects to only one domain instead. Also make sure you haven’t jQuery injected in your footer due to [Ghosts migration method](http://dev.ghost.org/no-more-jquery/). This can break the layout!_
+**Hint:** This project was developed during a hackathon 2016 in Regensburg (Germany). This is just the final state after two days of work, this is not a working product. We were a group of four people and we wanted to release our code in public. This readme should give you an overview over the archtitecture and further it contains links to the running application. So keep this in mind and stay coool :) 
 
 ## Demo
 
-* [Blog](http://bleak.zutrinken.com)
-* [Post](http://bleak.zutrinken.com/demo)
-* [Tags](http://bleak.zutrinken.com/tag/general)
-* [Author](http://bleak.zutrinken.com/author/zutrinken)
+* [REST SERVICE](https://debattle-backend.herokuapp.com/)
+* [NODEJS SERVER](https://debattle.herokuapp.com)
 
-## Features
+## Authors
 
-* Responsive layout
-* Blog navigation
-* Post navigation
-* Cover images for blog, tag and author archives
-* Featured posts style
-* Automatic code syntax highlight and line numbers
-* Disqus support
-* Sharing buttons
+* c0rvus (Benedikt "Bene" Hierl)
+* marc101101 (Markus "Marki" Guder)
+* surf3r92 (Julien "Julien" Wachter)
+* caora (Elizabeth "Liz" Dunphy)
+
 
 ## Setup
 
