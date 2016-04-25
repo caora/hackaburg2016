@@ -16,40 +16,12 @@
 * surf3r92 (Julien "Julien" Wachter)
 * caora (Elizabeth "Liz" Dunphy)
 
-
-## Setup
-
-To enable [Disqus](https://disqus.com/) comments go to your blogs code injection settings and add `<script>var disqus="YOUR_DISQUS_SHORTNAME";</script>` to your blog header.
-
-## Development
-
-Install [Grunt](http://gruntjs.com/getting-started/):
-
-	npm install -g grunt-cli
-	
-Install Grunt modules:
-
-	npm install
-
-Install [Bower](http://bower.io):
-
-	npm install -g bower
-
-Install Bower components:
-
-	bower install
-
-Build Grunt project:
-
-	grunt
-
-Distribute Grunt project:
-
-	grunt build
+## Architekture Backend & Frontend
+![alt tag](https://s3.eu-central-1.amazonaws.com/telescopeblog/files/pres-01.png)
 
 ## Copyright & License
 
-Copyright (C) 2015-2016 Peter Amende - Released under the MIT License.
+Copyright (C) 2015-2016 Markus Guder - Released under the MIT License.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 
