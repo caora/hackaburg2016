@@ -21,7 +21,7 @@
 
 ## Purpose
 
-The debattle application is actuallay made for revolutionize discussion in the world wide web. Ambitiously - yes maybe! The problem on plattforms as Facebook or Twitter is, that you lose the overview of a discussion. Apart from the fact that a lot of bullshit can be further found in those discussions. So we tried to develope a solution. In debattle you can open discussion on a specific topic and define the pro and the contra position. After that people can comment on this topic. After 24h the round gets closed automatically and the top ten comments pro and contra surrive and after 12h a new round can be opend, if the user votet for a new one. Through this system we try to provide a discussion culture with higher quality. 
+The debattle application is actually made for revolutionizing discussion on the world wide web. Ambitiously - yes maybe! The problem on platforms as Facebook or Twitter is, that you lose the overview of a discussion. Apart from the fact that a lot of bullshit can be further found in those discussions. So we tried to develop a solution. In debattle, you can open discussion on a specific topic and define the pro and the contra position. After that people can comment on this topic. After 24h, the round gets closed automatically and the top ten comments pro and contra survive and after 12h a new round can be opened, if the user voted for a new one. Through this system, we try to provide a discussion culture with higher quality.
 
 ## Screenshots
 ![alt tag](https://s3.eu-central-1.amazonaws.com/telescopeblog/files/Bildschirmfoto+2016-04-25+um+17.36.17.png)
